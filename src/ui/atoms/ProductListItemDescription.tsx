@@ -11,6 +11,7 @@ export const ProductListItemDescription = ({
 	return (
 		<>
 			<div>{name}</div>
+			<div>{category}</div>
 			<div>{formatMoney(price / 100)}</div>
 		</>
 	);
